@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.navbar .menu ul li {
+    display: inline;
+    margin-right: 10%;
+    font-family: "montserrat", sans-serif;
+}
+
+.navbar .menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main .tulisan {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.main .tulisan {
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.main .tulisan button {
+    background-color: #FB9100;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+.main .tulisan button:hover{
+    background-color: violet;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.main {
+    margin-top: 8rem;
+}
+
+.main .tulisan {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.main .tulisan p {
+    margin: 20px;
+}
+.main .tulisan img {
+    margin-top: 40%;
+}
+
+.main .gambar {
+    margin-left: 10%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about .tulisan2 h1{
+    font-family: 'poppins', sans-serif;
+    margin-top: 20%;
+}
+
+.cream {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.cream {
+    margin-bottom: 8rem;
+}
+
+.cream .tulisan3 {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.cream .tulisan3 h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.cream .tulisan3 p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin: 20px;
+}
+
+.cream .tulisan3 button {
+    background-color: #FB9100;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+.cream {
+    display: flex;
+}
+.cream .tulisan3 {
+    width: 40%;
+    height: 800px;
+}
+.cream .eskrim .buletes1 {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 230px;
+}
+.cream .eskrim .krim {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 260px;
+    padding-top: 100px;
+}
+.cream .eskrim .buletes2 {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 110px;
+    padding-top: 620px;
+}
+.cream .tulisan3 h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 420px;
+}
+.cream .tulisan3 h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cream .tulisan3 button {
+    padding: 20px 40px;
+    background-color: orange;
+    color:floralwhite;
+    font-size: 24px;
+    margin-left: 25px ;
+    border: none;
+    border-radius: 30px;
+    font-family:'poppins', sans-serif;
+
+}
+
+.cream .tulisan3 button:hover{
+    background-color: deeppink;
+
+}
